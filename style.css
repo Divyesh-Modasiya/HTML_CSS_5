@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* background-color: rgb(38,38,38); */
+   font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid; */
+    /* display: flex; */
+    background-image: url(img/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header .logo{
+    width: 20%;
+    height: 100px;
+    /* border: 1px solid; */
+    float: left;
+}
+.logo h2{
+    margin-left: 40px;
+    font-size: 22px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.nav{
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    /* border: 1px solid; */
+    margin-left: 30%;
+    float: left;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 15px;
+    color: black;
+}
+.nav a:hover{
+    color: rgb(154,138,120);
+}
+.nav button{
+    margin-left: 50px;
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+}
+.nav button:hover{
+    background-color: black;
+    color: white;
+}
+.text{
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid; */
+    margin-left: 10%;
+    position: relative;
+    top: 200PX;
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, black,brown,gray,black,brown);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* background-color: transparent; */
+}
+.text h1{
+    font-size: 60px;
+    margin-top: 0;
+}
+.text p{
+    font-size: 28px;
+}
+/* header */
+
+/* main */
+.main{
+    width: 100%;
+    height: 500vh;
+    background-color: rgb(38,38,38);
+}
+.main .in{
+    width: 80%;
+    height: 600px;
+    border: 1px solid rgb(154,138,120);
+    margin-left: 10%;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.main .in .i1{
+    width: 50%;
+    height: 600px;
+    border: 1px solid rgb(154,138,120);
+}
+.main .in .i1 img{
+    width: 100%;
+    height: 100%;
+}
+.main .in .i1 .detail{
+    width: 60%;
+    height: 300px;
+    /* border: 1px solid white; */
+    margin-left: 80px;
+    margin-top: 150px;
+    color: white;
+}
+.main .detail h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.main .detail ul{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.main .detail ul li{
+    margin-bottom: 10px;
+}
+.main .detail button{
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+    background-color: rgb(154,138,120);
+    border: 1px none;
+    cursor: pointer;
+}
+.main .detail button:hover{
+    background-color: black;
+    color: white;
+}
+.main .icon{
+    width: 80%;
+    height: 200px;
+    border: 1px solid rgb(154,138,120);
+    margin-top: 100px;
+    margin-left: 10%;
+    display: flex;
+}
+.main .icon .first{
+    width: 25%;
+    height: 200px;
+    border: 1px solid rgb(154,138,120);
+}
+.main .icon .first i{
+    font-size: 70px;
+    color: rgb(154,138,120);
+    /* font-weight: 200; */
+    margin-left: 95px;
+    position: relative;
+    top: 20px;
+}
+.main .icon .first p{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main .about{
+    width: 80%;
+    height: 600px;
+    border: 1px solid rgb(154,138,120);
+    margin-left: 10%;
+    display: flex;
+
+}
+.main .about .a1 img{
+    width: 100%;
+    height: 100%;
+}
+.main .about .a1{
+    width: 50%;
+    height: 600px;
+    border: 1px solid rgb(154,138,120);
+}
+.main .about .a1 .atext{
+    width: 80%;
+    height: 400px;
+    /* border: 1px solid white; */
+    margin-top: 100px;
+    margin-left: 10%;
+    color: white;
+}
+.main .about .a1 .atext h1{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.main .about .a1 .atext h2{
+    margin-bottom: 30px;
+    color: rgb(154,138,120);
+    letter-spacing: 1px;
+}
+.main .about .a1 .atext p{
+    font-size: 18px;
+    font-size: 300;
+}
+.main .about .a1 .atext button{
+    width: 250px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: rgb(154,138,120);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main .about .a1 .atext button:hover{
+    background-color: black;
+    color: white;
+}
+
+.main .project{
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    margin-left: 10%;
+    
+}
+.main .project h1{
+    text-align: center;
+    color: rgb(154,138,120);
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.main .a{
+    width: 20%;
+    height: 500px;
+    /* border: 1px solid white; */
+    float: left;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.main .a .a1{
+    width: 80%;
+    height: 220px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 40px;
+}
+.main .a .a2{
+    width: 80%;
+    height: 150px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 30px;
+}
+.main .a .a3{
+    width: 80%;
+    height: 150px;
+    /* border:  1px solid white; */
+    margin: auto;
+    margin-top: 40px;
+}
+.main .a .a4{
+    width: 80%;
+    height: 220px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main .b{
+    width: 50%;
+    height: 440px;
+    /* border: 1px solid white; */
+    float: left;
+    margin-top: 50px;
+}
+.main .project img{
+    width: 100%;
+    height: 100%;
+}
+.main .btn{
+    width: 20%;
+    height: 60px;
+    margin-left: 40%;
+    margin-top: 40px;
+    background-color: rgb(154,138,120);
+    border: none;
+}
+.main .btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.main .content{
+    width: 90%;
+    height: 400px;
+    border: 1px solid rgb(154,138,120);
+    margin-left: 5%;
+    margin-top: 80px;
+    display: flex;
+}
+.main .content .box{
+    width: 25%;
+    height: inherit;
+    border: 1px solid rgb(154,138,120);
+}
+.main .content #abox{
+    background-color: rgb(154,138,120);
+}
+ .content #abox h1{
+    font-size: 40px;
+    margin-left: 10px;
+    line-height: 300px;
+    color: white;
+    font-weight: 700;
+}
+.content .box p{
+    font-size: 18px;
+    margin-top: 90px;
+    margin-inline: 30px;
+    color: white;
+    font-weight: 200;
+    /* letter-spacing: 1px; */
+}
+.content .box h1{
+    color: rgb(154,138,120);
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 300;
+}
+/* main */
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(38,38,38);
+}
+.footer .fbox{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+}
+.footer .fbox .first,.second,.third{
+    width: 33%;
+    height: 500px;
+    /* border: 1px solid white; */
+    /* text-align: center; */
+}
+.footer .fbox .first h1{
+    color: rgb(154,138,120);
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+.footer .fbox .first .ffirst{
+    width: 70%;
+    height: 50px;
+    border: 1px solid transparent;
+    color: rgb(154,138,120);
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+.first .ffirst i{
+    font-size: 40px;
+    color: rgb(154,138,120);
+    float: left;
+    margin-right: 20px;
+}
+.first .ffirst p{
+    margin-top: 10px;
+}
+.first #p{
+    color: rgb(154,138,120);
+    margin-left: 80px;
+}
+.second form{
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid; */
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.second input{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    color: rgb(154,138,120);
+    border: none;
+    border-bottom: 1px solid rgb(154,138,120);
+}
+.second button{
+    margin-left: 35%;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(154,138,120);
+    border: none;
+}
+.second button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.third .link{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 130px;
+}
+.third a{
+    text-decoration: none;
+    margin-bottom: 20px; 
+    color: rgb(154,138,120);   
+}
+.third .link button{
+    width: 150px;
+    height: 40px;
+    margin-left: 28%;
+    background-color: rgb(154,138,120);
+    border: none;
+    margin-top: 50px;
+}
+.third .link button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* footer */
